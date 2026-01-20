@@ -1,0 +1,10 @@
+{
+  "name": "Multan Sultans Fan Art #1",
+  "description": "Unofficial fan-made NFT inspired by Pakistan Super League cricket culture. This work is not affiliated with or endorsed by PSL or Multan Sultans. *Picture Taken from pngtree/multan-sultan",
+  "image": "ipfs://bafkreifg2h6s7fjyuqutuggrgunapvumhr2ggob2nqxfjnb3sxlvwphdia",
+  "attributes": [
+    { "trait_type": "City", "value": "Multan" },
+    { "trait_type": "Category", "value": "Fan Art" },
+    { "trait_type": "Edition", "value": "Genesis" }
+  ]
+}
