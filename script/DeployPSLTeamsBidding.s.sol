@@ -10,7 +10,6 @@ contract DeployPSLTeamsBidding is Script {
     PSLTeamsBidding public pslteamsbidding;
     PSLTeams public pslteams;
     
-    // FIX 1: Removed quotes. This is now a valid address literal.
     address public pkrToken = 0x902767592ADB84efECD3Eb44A8D6Bd77B0632b81;
 
     function run() public {

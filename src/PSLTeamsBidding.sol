@@ -97,7 +97,7 @@ contract PSLTeamsBidding is Ownable(msg.sender) {
     function settleAuction(uint256 tokenId) external isListed(tokenId) {
         Listing storage listing = listings[tokenId];
 
-        require(listing.auctionEnd >= block.timestamp, "AUCTION IS NOT OVER");
+        require(block.timestamp >= listing.auctionEnd, "AUCTION IS NOT OVER YET");
         require(listing.currentBidPrice > 0, "NO BIDS PLACED");
 
         _executeSale(tokenId);
